@@ -1,0 +1,15 @@
+{
+  "tied_rows": 60,
+  "acc_positional": 0.7454935622317597,
+  "acc_random_ties_mean": 0.7439914163090129,
+  "acc_random_ties_range": [
+    0.742274678111588,
+    0.7465665236051502
+  ],
+  "flip_positional": 0.3158798283261803,
+  "flip_random_ties_mean": 0.3214892703862661,
+  "flip_random_ties_range": [
+    0.3158798283261803,
+    0.32703862660944205
+  ]
+}
