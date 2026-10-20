@@ -1,0 +1,22 @@
+{
+  "config": "ARC-Challenge/test",
+  "dataset": "allenai/ai2_arc",
+  "dataset_revision": "210d026faf9955653af8916fad021475a3f00453",
+  "datasets": "3.6.0",
+  "device": "cpu",
+  "dtype": "float32",
+  "eligible": 1165,
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "n_used": 1165,
+  "numpy": "2.4.4",
+  "output": "results_qwen2.5-0.5b.parquet",
+  "output_sha256": "afead053b7db1f3886caa9ff971178bba8a296505286873a3308c7e4e7bb2913",
+  "pandas": "3.0.2",
+  "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39",
+  "prompt": "question + blank + A-D options + blank + 'Answer:'; raw completion, no chat template",
+  "python": "3.11.15",
+  "seed": 0,
+  "torch": "2.14.1+cu130",
+  "transformers": "5.20.2"
+}
