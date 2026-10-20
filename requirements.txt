@@ -1,0 +1,7 @@
+torch>=2.4
+transformers>=5.0
+datasets>=3.6
+numpy>=2.0
+pandas>=3.0
+pyarrow
+scipy>=1.15
