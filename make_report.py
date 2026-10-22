@@ -2,12 +2,13 @@
 """Render RESULTS.md from summary_*.json so no number is typed by hand."""
 import json, sys, glob
 
-files = sorted(glob.glob("summary_*.json"))
+ORDER = ["qwen2.5-0.5b", "qwen2.5-1.5b", "smollm2-360m", "smollm2-1.7b"]
+files = sorted(glob.glob("summary_*.json"), key=lambda f: next((i for i, k in enumerate(ORDER) if k in f), 99))
 S = [json.load(open(f)) for f in files]
 
 
-def pct(x): return f"{100*x:.1f}%"
-def rng(c): return f"[{100*c[0]:.1f}, {100*c[1]:.1f}]"
+def pct(x): return "n/a" if x != x else f"{100*x:.1f}%"
+def rng(c): return "" if c[0] != c[0] else f"[{100*c[0]:.1f}, {100*c[1]:.1f}]"
 
 
 L = ["# ARC-Challenge option-order robustness audit: results", "",
