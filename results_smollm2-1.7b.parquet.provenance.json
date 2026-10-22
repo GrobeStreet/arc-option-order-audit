@@ -1,0 +1,22 @@
+{
+  "config": "ARC-Challenge/test",
+  "dataset": "allenai/ai2_arc",
+  "dataset_revision": "210d026faf9955653af8916fad021475a3f00453",
+  "datasets": "3.6.0",
+  "device": "cpu",
+  "dtype": "bfloat16",
+  "eligible": 1165,
+  "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "model_revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "n_used": 1165,
+  "numpy": "2.4.4",
+  "output": "results_smollm2-1.7b.parquet",
+  "output_sha256": "337d950eb6cf7114baedec7b93b1ec641cbd472e68cdf6c096f4ccb6682c2b87",
+  "pandas": "3.0.2",
+  "platform": "Linux-6.18.44-fc-v140-x86_64-with-glibc2.39",
+  "prompt": "question + blank + A-D options + blank + 'Answer:'; raw completion, no chat template",
+  "python": "3.11.15",
+  "seed": 0,
+  "torch": "2.14.1+cu130",
+  "transformers": "5.20.2"
+}
